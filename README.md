@@ -1,6 +1,6 @@
 # Helm Diff Plugin
 
-This is a Helm plugin giving your a preview of what a `helm upgrade` would change.
+This is a Helm plugin giving you a preview of what a `helm upgrade` would change.
 It basically generates a diff between the latest deployed version of a release
 and a `helm upgrade --debug --dry-run`. This can also be used to compare two 
 revisions/versions of your helm release.
@@ -15,7 +15,7 @@ The Helm Diff Plugin
 * Shows a diff explaining what a helm upgrade would change:
     This fetches the currently deployed version of a release
   and compares it to a local chart plus values. This can be 
-  used visualize what changes a helm upgrade will perform.
+  used to visualize what changes a helm upgrade will perform.
 
 * Shows a diff explaining what had changed between two revisions:
     This fetches previously deployed versions of a release
@@ -24,8 +24,8 @@ The Helm Diff Plugin
 
 * Shows a diff explaining what a helm rollback would change:
     This fetches the currently deployed version of a release
-  and compares it to adeployed versions of a release, that you 
-  want to rollback. This can be used visualize what changes a 
+  and compares it to a deployed version of a release, that you 
+  want to rollback. This can be used to visualize what changes a 
   helm rollback will perform.
 
 Usage:
